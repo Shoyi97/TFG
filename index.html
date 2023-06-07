@@ -1,55 +1,279 @@
 <!DOCTYPE html>
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="calculos.js"></script>
 </head>
 <body>
     <div class="page-nav">
-        <h1>Mi tienda</h1>
+        <h1>Sneaker´z</h1>
         <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
     </div>
     <div class="page-content">
         <div class="product-container">
-            <h3>nombre</h3>
-            <img src="images/product-1.jpg" />
-            <h1>$50</h1>
-            <button class="button-add" onclick="add('product-1', 50)">Agregar</button>
+            <h3>BLAZER MID '77 JUMBO</h3>
+            <img src="TFG/Fotos/1.jpg" width="300" height="300"/>
+            <h1>115€</h1>
+            <button class="button-add" onclick="add('BLAZER MID 77 JUMBO', 115)">Agregar</button>
         </div>
 
         <div class="product-container">
-            <h3>nombre</h3>
-            <img src="images/product-2.jpg" />
-            <h1>$300</h1>
-            <button class="button-add" onclick="add('product-2', 300)">Agregar</button>
+            <h3>AIR FORCE 1 MID</h3>
+            <img src="TFG/Fotos/2.jpg" width="300" height="300"/>
+            <h1>140€</h1>
+            <button class="button-add" onclick="add('AIR FORCE 1 MID', 140)">Agregar</button>
         </div>
 
         <div class="product-container">
-            <h3>nombre</h3>
-            <img src="images/product-3.jpg" />
-            <h1>$250</h1>
-            <button class="button-add" onclick="add('product-3', 250)">Agregar</button>
+            <h3>DUNK HIGH GRADIENT</h3>
+            <img src="TFG/Fotos/3.jpg" width="300" height="300"/>
+            <h1>180€</h1>
+            <button class="button-add" onclick="add('DUNK HIGH GRADIENT', 180)">Agregar</button>
         </div>
 
         <div class="product-container">
-            <h3>nombre</h3>
-            <img src="images/product-4.jpg" />
-            <h1>$200</h1>
-            <button class="button-add" onclick="add('product-4', 200)">Agregar</button>
+            <h3>DUNK HIGH BRUCE LEE</h3>
+            <img src="TFG/Fotos/4.jpg" width="300" height="300"/>
+            <h1>230€</h1>
+            <button class="button-add" onclick="add('DUNK HIGH BRUCE LEE', 230)">Agregar</button>
         </div>
 
         <div class="product-container">
-            <h3>nombre</h3>
-            <img src="images/product-5.jpg" />
-            <h1>$10</h1>
-            <button class="button-add" onclick="add('product-5', 10)">Agregar</button>
+            <h3>JORDAN AJ1 RETRO HI OG</h3>
+            <img src="TFG/Fotos/5.jpg" width="300" height="300"/>
+            <h1>119€</h1>
+            <button class="button-add" onclick="add('JORDAN AJ1 RETRO HI OG', 119)">Agregar</button>
         </div>
 
         <div class="product-container">
-            <h3>nombre</h3>
-            <img src="images/product-6.jpg" />
-            <h1>$650</h1>
-            <button class="button-add" onclick="add('product-6', 650)">Agregar</button>
+            <h3>JORDAN RETRO 2</h3>
+            <img src="TFG/Fotos/6.jpg" width="300" height="300"/>
+            <h1>129€</h1>
+            <button class="button-add" onclick="add('JORDAN RETRO 2', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>JORDAN 8 RETRO</h3>
+            <img src="TFG/Fotos/8.jpg" width="300" height="300"/>
+            <h1>169€</h1>
+            <button class="button-add" onclick="add('JORDAN 8 RETRO', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>JORDAN RETRO 1 HIGH OG</h3>
+            <img src="TFG/Fotos/7.jpg" width="300" height="300"/>
+            <h1>199€</h1>
+            <button class="button-add" onclick="add('JORDAN RETRO 1 HIGH OG', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>AIR VAPORMAX PLUS</h3>
+            <img src="TFG/Fotos/9.jpg" width="300" height="300"/>
+            <h1>119€</h1>
+            <button class="button-add" onclick="add('AIR VAPORMAX PLUS', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>AIR JORDAN 3 RETRO</h3>
+            <img src="TFG/Fotos/10.jpg" width="300" height="300"/>
+            <h1>139€</h1>
+            <button class="button-add" onclick="add('AIR JORDAN 3 RETRO', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>DEATH ROW RECORDS X ROGUE</h3>
+            <img src="TFG/Fotos/11.jpg" width="300" height="300"/>
+            <h1>189€</h1>
+            <button class="button-add" onclick="add('DEATH ROW RECORDS X ROGUE', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>33 HI 10YR ANNI</h3>
+            <img src="TFG/Fotos/12.jpg" width="300" height="300"/>
+            <h1>119€</h1>
+            <button class="button-add" onclick="add('33 HI 10YR ANNI', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>HYPERTURF</h3>
+            <img src="TFG/Fotos/13.jpg" width="300" height="300"/>
+            <h1>69€</h1>
+            <button class="button-add" onclick="add('HYPERTURF', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>NB 550</h3>
+            <img src="TFG/Fotos/14.jpg" width="300" height="300"/>
+            <h1>89€</h1>
+            <button class="button-add" onclick="add('NB 550', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>PS100 HIGH</h3>
+            <img src="TFG/Fotos/15.jpg" width="300" height="300"/>
+            <h1>1169€</h1>
+            <button class="button-add" onclick="add('PS100 HIGH', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>AIR MAX 90</h3>
+            <img src="TFG/Fotos/16.jpg" width="300" height="300"/>
+            <h1>189€</h1>
+            <button class="button-add" onclick="add('AIR MAX 90', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>AIR JORDAN 1 MID SE</h3>
+            <img src="TFG/Fotos/17.jpg" width="300" height="300"/>
+            <h1>200€</h1>
+            <button class="button-add" onclick="add('AIR JORDAN 1 MID SE', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>AIR FLIGHT 89</h3>
+            <img src="TFG/Fotos/18.jpg" width="300" height="300"/>
+            <h1>630€</h1>
+            <button class="button-add" onclick="add('AIR FLIGHT 89', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>RUN STAR MOTION CANVAS PLATAFORM</h3>
+            <img src="TFG/Fotos/19.jpg" width="300" height="300"/>
+            <h1>189€</h1>
+            <button class="button-add" onclick="add('RUN STAR MOTION CANVAS PLATAFORM', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>AIR FORCE 1 '07 SN</h3>
+            <img src="TFG/Fotos/20.jpg" width="300" height="300"/>
+            <h1>1200€</h1>
+            <button class="button-add" onclick="add('AIR FORCE 1 07 SN', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>SK8-HI MTE</h3>
+            <img src="TFG/Fotos/21.jpg" width="300" height="300"/>
+            <h1>180€</h1>
+            <button class="button-add" onclick="add('SK8-HI MTE', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>NMD_V3</h3>
+            <img src="TFG/Fotos/22.jpg" width="300" height="300"/>
+            <h1>189€</h1>
+            <button class="button-add" onclick="add('NMD_V3', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>FORUM LOW 84 THE GRINCH</h3>
+            <img src="TFG/Fotos/23.jpg" width="300" height="300"/>
+            <h1>269€</h1>
+            <button class="button-add" onclick="add('FORUM LOW 84 THE GRINCH', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>LXRY PLUS PRM</h3>
+            <img src="TFG/Fotos/24.jpg" width="300" height="300"/>
+            <h1>150€</h1>
+            <button class="button-add" onclick="add('LXRY PLUS PRM', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>SUPERSTAR</h3>
+            <img src="TFG/Fotos/25.jpg" width="300" height="300"/>
+            <h1>189€</h1>
+            <button class="button-add" onclick="add('SUPERSTAR', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>33 HI EASTERN</h3>
+            <img src="TFG/Fotos/26.jpg" width="300" height="300"/>
+            <h1>189€</h1>
+            <button class="button-add" onclick="add('33 HI EASTERN', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>JORDAN 1 RETRO HIGH DIOR</h3>
+            <img src="TFG/Fotos/27.jpg" width="300" height="300"/>
+            <h1>16.450€</h1>
+            <button class="button-add" onclick="add('JORDAN 1 RETRO HIGH DIOR', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>JORDAN 2700 POINT LANE</h3>
+            <img src="TFG/Fotos/28.jpg" width="300" height="300"/>
+            <h1>199€</h1>
+            <button class="button-add" onclick="add('JORDAN 2700 POINT LANE', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>AIR FORCE 1 07</h3>
+            <img src="TFG/Fotos/29.jpg" width="300" height="300"/>
+            <h1>229€</h1>
+            <button class="button-add" onclick="add('AIR FORCE 1 07', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>G4 LOW TOP SNEAKER</h3>
+            <img src="TFG/Fotos/30.jpg" width="300" height="300"/>
+            <h1>340€</h1>
+            <button class="button-add" onclick="add('G4 LOW TOP SNEAKER', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>A BATHING APE BAPE STA SNEAKER</h3>
+            <img src="TFG/Fotos/31.jpg" width="300" height="300"/>
+            <h1>189€</h1>
+            <button class="button-add" onclick="add('A BATHING APE BAPE STA SNEAKER', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>AIR JORDAN 2 RETRO SE</h3>
+            <img src="TFG/Fotos/32.jpg" width="300" height="300"/>
+            <h1>190€</h1>
+            <button class="button-add" onclick="add('AIR JORDAN 2 RETRO SE', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>JORDAN 4 RETRO EMINEM ENCORE</h3>
+            <img src="TFG/Fotos/33.jpg" width="300" height="300"/>
+            <h1>90€</h1>
+            <button class="button-add" onclick="add('JORDAN 4 RETRO EMINEM ENCORE', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>JORDAN 1 MID CHICAGO</h3>
+            <img src="TFG/Fotos/34.jpg" width="300" height="300"/>
+            <h1>149€</h1>
+            <button class="button-add" onclick="add('JORDAN 1 MID CHICAGO', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>AIR JORDAN 1 RETRO HI OG CRAFT</h3>
+            <img src="TFG/Fotos/35.jpg" width="300" height="300"/>
+            <h1>189€</h1>
+            <button class="button-add" onclick="add('AIR JORDAN 1 RETRO HI OG CRAFT', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>BB650RCL</h3>
+            <img src="TFG/Fotos/36.jpg" width="300" height="300"/>
+            <h1>189€</h1>
+            <button class="button-add" onclick="add('BB650RCL', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>SHAQ ATTAQ</h3>
+            <img src="TFG/Fotos/37.jpg" width="300" height="300"/>
+            <h1>1869€</h1>
+            <button class="button-add" onclick="add('SHAQ ATTAQ', 189)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>AIR JORDAN 1 ZOOM AIR CMFT 2</h3>
+            <img src="TFG/Fotos/38.jpg" width="300" height="300"/>
+            <h1>199€</h1>
+            <button class="button-add" onclick="add('AIR JORDAN 1 ZOOM AIR CMFT 2', 189)">Agregar</button>
         </div>
     </div>
 </body>
